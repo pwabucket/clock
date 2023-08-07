@@ -17,6 +17,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       react(),
       VitePWA({
+        registerType: "autoUpdate",
         manifest: {
           name: env.VITE_PWA_MANIFEST_NAME,
           short_name: env.VITE_PWA_MANIFEST_SHORT_NAME,
