@@ -17,7 +17,7 @@ export const App = () => {
         "min-h-screen supports-[min-height:100dvh]:min-h-[100dvh]"
       )}
     >
-      <div className="w-full max-w-xs">
+      <div className="w-10/12 max-w-xs">
         <Clock
           value={time}
           size="100%"
