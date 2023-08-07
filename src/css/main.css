@@ -1,3 +1,27 @@
+@import "react-clock/dist/Clock.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.react-clock {
+  &__face {
+    @apply dark:border-white;
+  }
+
+  &__mark__body {
+    @apply dark:bg-white;
+  }
+
+  &__hand {
+    @apply transition;
+  }
+
+  &__hand__body {
+    @apply dark:bg-white;
+  }
+
+  &__second-hand__body {
+    @apply bg-red-500;
+  }
+}
