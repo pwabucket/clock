@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource/orbitron':
+    specifier: ^5.0.8
+    version: 5.0.8
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -320,6 +323,10 @@ packages:
     resolution: {integrity: sha512-a8TLtmPi8xzPkCbp/OGFUo5yhRkHM2Ko9kOWP4znJr0WAhWyThaw3PnwX4vOTWOAMsV2uRt32PPDcEz63esSaA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/orbitron@5.0.8:
+    resolution: {integrity: sha512-6CBPKqrvOZEOREv0PwivCFW2Nzj7l5UbxGmSYtaAdg2SQgMVDnphx9xvaJ4yq9+mY2ZqyA21cKooIYMkMg8n7g==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.10:
     resolution: {integrity: sha512-KVVjQmNUepDVGXNuoRRdmmEjruj0KfiGSbS8LVc12LMsWDQzRXJ0qdhN8L8uUigKpfEHRhlaQFY0ib1tnUbNeQ==}
