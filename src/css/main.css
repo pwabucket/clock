@@ -23,6 +23,6 @@
   }
 
   &__second-hand__body {
-    @apply bg-red-500;
+    @apply bg-orange-500;
   }
 }
