@@ -18,6 +18,9 @@ export default defineConfig(({ mode }) => {
       react(),
       VitePWA({
         registerType: "autoUpdate",
+        workbox: {
+          globPatterns: ["**/*.*"],
+        },
         manifest: {
           name: env.VITE_PWA_MANIFEST_NAME,
           short_name: env.VITE_PWA_MANIFEST_SHORT_NAME,
